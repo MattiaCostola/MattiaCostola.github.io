@@ -1,0 +1,21 @@
+.footer {
+	padding: 10px 0;
+    position: relative;
+    background: $px-dark;
+    .nav {
+    	margin: 10px 0;
+    	a {
+		    color: $px-custom-1;
+		    font-size: 14px;
+		    margin-right: 17px;
+		    &:hover {
+		    	color: $px-theme;
+		    }
+    	}
+    }
+    p {
+    	color: $px-custom-1;
+		font-size: 14px;
+		margin: 10px 0;
+    }
+}
